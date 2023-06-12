@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+</head>
+<body>
+    <!--header section-->
+    <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <a href="#" class="logo"><span>i</span>Stock</a>
+        <nav class="navbar">
+            <a href="#Home">Home</a>
+            <a href="#Featured-Products">Featured Products</a>
+            <a href="#Product-Categories">Product Categories</a>
+            <a href="#Reviews">Reviews</a>
+            <a href="#AboutUs">About Us</a>
+        </nav>
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+    </header>
+
+    <div class="login-form-container">
+        <i class="fas fa-time" id="form-close">x</i>
+        <form action="">
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="enter your email">
+            <input type="password" class="box" placeholder="enter your password">
+            <input type="submit" value="login now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+            <p>forget password? <a href="#">click here</a></p>
+            <p>don't have an account? <a href="#">register now</a></p>
+        </form>
+        
+    </div>
+    <section class="home" id="Home">
+        <div class="content">
+            <h3>Our dedication your choice</h3>
+            <p>Elevate Your Living with Exquisite Furniture Designs</p>
+        </div>
+
+        <div class="controls">
+            <span class="vid-btn active" data-src="vid5.mp4"></span>
+            <span class="vid-btn" data-src="vid2.mp4"></span>
+            <span class="vid-btn" data-src="vid3.mp4"></span>
+            <span class="vid-btn" data-src="vid4.mp4"></span>
+            <span class="vid-btn" data-src="vid1.mp4"></span>
+        </div>
+        <div class="video-container">
+            <video src="vid5.mp4" id="video-slider" loop autoplay muted></video>
+            
+        </div>
+
+    </section>
+    <section class="Featured-Products" id="Featured-Products">
+        <h1 class="heading">Featured Products</h1>
+        <div class="box-container">
+            <div class="box">
+                <p><a href="https://ilovepaket.com/product_details/44587500.html">
+                    <img src="pic1.png" alt=""></a></p>
+                <div class="content">
+                    <h3>Turquoise Genuine Cigar Leather Recliner With Nailhead </h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+
+                    <div class="price">19,000<span> 28,000</span></div>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <p><a href="https://www.amazon.in/Antique-Log-Minimalist-Grey-Engineered/dp/B0BGR811M6">
+                    <img src="pic2.png" alt=""></a></p>
+                <div class="content">
+                    <h3>Antique Log Round Side Table Set of 2</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+
+                    <div class="price">19,000<span> 28,000</span></div>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <p><a href="https://www.wayfair.com/keyword.php?keyword=tuxedo+crantor+genuine">
+                    <img src="picc3.png" alt=""></a></p>
+                <div class="content">
+                    <h3>tuxedo crantor genuine</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+
+                    <div class="price">19,000<span> 28,000</span></div>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <p><a href="https://www.amazon.in/SAAMENIA-FURNITURES-Newspaper-Sheesham-Mahogany/dp/B0BLC7C6Q9">
+                    <img src="pic4.png" alt=""></a></p>
+                <div class="content">
+                    <h3>Wooden 3 Seater Sofa</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+
+                    <div class="price">19,000<span> 28,000</span></div>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <p><a href="https://www.modishstore.com/products/modway-crossroads-63-oval-wood-dining-table">
+                    <img src="pic5.png" alt=""></a></p>
+                <div class="content">
+                    <h3>Oval Wood Dining Table</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+
+                    <div class="price">19,000<span> 28,000</span></div>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <p><a href="https://www.tomlinsonfurniture.ky/shop-living-room-furniture/sofa-couch/modway-eei-3407-lbu-enthusiastic-vertical-channel-tufted-curved-performance-velvet-sofa.html">
+                    <img src="pic6.png" alt=""></a></p>
+                <div class="content">
+                    <h3>Channel Tufted Curved Performance Velvet Sofa</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+
+                    <div class="price">19,000<span> 28,000</span></div>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="product-category" id="Product-Categories">
+        <h1>Product Categories</h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="pc1.png" alt="">
+                <div class="content">
+                    <h3>Furniture</h3>
+                    <p>Furniture includes hall,bedroom and kitchen chairs..</p>
+                    <a href="https://www.overstock.com/Home-Garden/Furniture/32/dept.html?TID=SUI:NO_RESULTS_FURNITURE" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="pc2.png" alt="">
+                <div class="content">
+                    <h3>Living Room Furniture</h3>
+                    <p>Includes Dining table chair and tables of glass wood and plastic..</p>
+                    <a href="https://www.overstock.com/Home-Garden/Living-Room-Furniture/713/cat.html" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="pc3.png" alt="">
+                <div class="content">
+                    <h3>Lighting</h3>
+                    <p>Adapt the perfect outdo0r lighting for darker days and longer nights...</p>
+                    <a href="https://www.overstock.com/Lighting-Ceiling-Fans/52/store.html?TID=SUI:NO_RESULTS_LIGHTING" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="pc4.png" alt="">
+                <div class="content">
+                    <h3>Area Rugs</h3>
+                    <p>Includes small, medium large and round shaped rugs for home Decor..</p>
+                    <a href="https://www.overstock.com/Home-Garden/Area-Rugs/31446/subcat.html?TID=SUI:NO_RESULTS_AREA_RUGS" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="pc5.png" alt="">
+                <div class="content">
+                    <h3>Home Improvement</h3>
+                    <p>Includes Bathroom and Kitchen renovation essentials..</p>
+                    <a href="https://www.overstock.com/Home-Garden/Home-Improvement/36/dept.html?TID=SUI:NO_RESULTS_HOME" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="pc6.png" alt="">
+                <div class="content">
+                    <h3>outdoors</h3>
+                    <p>Includes outdoor seatings, sofas, shades and lounge furniture..</p>
+                    <a href="https://www.overstock.com/Home-Garden/Home-Improvement/36/dept.html?TID=SUI:NO_RESULTS_HOME" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="pc7.png" alt="">
+                <div class="content">
+                    <h3>Decor</h3>
+                    <p>Includes mirrors,wall art,throw pillows and accent pieces..</p>
+                    <a href="https://www.overstock.com/Home-Garden/Home-Decor/3/dept.html?TID=SUI:NO_RESULTS_DECOR" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="pc8.png" alt="">
+                <div class="content">
+                    <h3>Bedding</h3>
+                    <p>Includes Quilts, Bedspreads, Mattress Pads and Toppers..</p>
+                    <a href="https://www.overstock.com/c/bedding?t=1" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="pc9.png" alt="">
+                <div class="content">
+                    <h3>Tables</h3>
+                    <p>Includes wardrobes, Armoires,HeadBoards and Dressers.... </p>
+                    <a href="https://www.overstock.com/Home-Garden/Bedroom-Furniture/710/cat.html" class="btn">see more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="Reviews" id="Reviews">
+        <h1 class="heading">Reviews</h1>
+        <div class="swiper review-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="girl1.png" alt="">
+                        <h3>NORAH</h3>
+                        <p>Just received my new coffee table and I couldn't be happier!
+                            The quality is outstanding and the craftsmanship is top-notch. Highly recommend!</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="boy3.png" alt="">
+                        <h3>PAXTON</h3>
+                        <p>This wall art is a game-changer! The intricate details and vibrant colors make
+                            it a true centerpiece in my living room. So happy with this purchase!.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="girl2.png" alt="">
+                        <h3>ELENA</h3>
+                        <p>Finally found the perfect bookshelf for my study! The size is just right 
+                            and it has ample storage space. Now my books have a stylish new home.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="boy4.png" alt="">
+                        <h3>DAMON</h3>
+                        <p>Absolutely in love with this chandelier! It's a showstopper and adds a touch of 
+                            glamour to my dining room. Creates the perfect ambiance for dinner parties.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="brand-container">
+        <div class="swiper brand-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="logo1.png" alt=""></div>
+                <div class="swiper-slide"><img src="logo2.png" alt=""></div>
+                <div class="swiper-slide"><img src="logo3.png" alt=""></div>
+                <div class="swiper-slide"><img src="logo4.png" alt=""></div>
+                <div class="swiper-slide"><img src="logo5.png" alt=""></div>
+                <div class="swiper-slide"><img src="logo6.png" alt=""></div>
+                <div class="swiper-slide"><img src="logo7.png" alt=""></div>
+            </div>
+        </div>
+    </section>
+    <section class="footer" id="AboutUs">
+        <div class="box-container">
+            <div class="box">
+                <h3>About Us</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque 
+                    ipsum repellendus rem perspiciatis ipsam sint deleniti accusantium nesciunt
+                    fugit? Quaerat enim nulla beatae dicta ad quam facere, fuga assumenda deleniti!
+                </p>
+            </div>
+            <div class="box">
+                <h3> Company Branches</h3>
+                <a href="#">India</a>
+                <a href="#">USA</a>
+                <a href="#">Japan</a>
+                <a href="#">Canada</a>
+                <a href="#">Sri Lanka</a>
+            </div>
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="#">Home</a>
+                <a href="#">Featured Products</a>
+                <a href="#">Product Categories</a>
+                <a href="#">Reviews</a>
+                <a href="#">About us</a>
+            </div>
+            <div class="box">
+                <h3>Follow Us</h3>
+                <a href="https://www.instagram.com/sanatxx._/">Instagram</a>
+                <a href="https://www.linkedin.com/in/sana-tabassum-25stm/">Linked In</a>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+        <h1 class="credit"> created by <span>Sana Tabassum</span> | all rights reserved</h1>
+    </section>
+
+             
+
+    
+    
+    
+    
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
